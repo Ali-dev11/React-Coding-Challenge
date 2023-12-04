@@ -1,13 +1,13 @@
 import GoogleMapReact from 'google-map-react'
 import {FaMapMarkerAlt} from 'react-icons/fa'
 
-interface AnyReactComponentProps {
+interface UserLocationDataProps {
 	lat: number
 	lng: number
 	text: React.ReactNode
 }
 
-const UserLocationData: React.FC<AnyReactComponentProps> = ({text}) => (
+const UserLocationData: React.FC<UserLocationDataProps> = ({text}) => (
 	<div>{text}</div>
 )
 
