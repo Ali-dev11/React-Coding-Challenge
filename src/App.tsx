@@ -2,7 +2,7 @@ import {Suspense, lazy} from 'react'
 import {Route, Routes} from 'react-router-dom'
 
 import Loading from './Components/Loading'
-const UserProfile = lazy(() => import('./Components/User/UserProfile'))
+const UserProfile = lazy(() => import('./Pages/UserProfile'))
 const Home = lazy(() => import('./Pages/Home'))
 
 const App = () => {

@@ -10,8 +10,10 @@ import {
 } from 'react-icons/fa'
 
 import {DateFormat} from '../../utils/format'
-const UserNationalityFlag = lazy(() => import('./UserNatinalityFlag'))
-const UserLocation = lazy(() => import('./UserLocation'))
+const UserNationalityFlag = lazy(
+	() => import('../../Components/User/UserNatinalityFlag')
+)
+const UserLocation = lazy(() => import('../../Components/User/UserLocation'))
 
 const UserProfile = () => {
 	const locationState = useLocation().state //get state from card
