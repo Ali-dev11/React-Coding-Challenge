@@ -10,7 +10,7 @@ The application consumes data from the Random User API (`https://randomuser.me/a
 Clone the repository to your local machine:
 
 ```bash
-git clonehttps://github.com/Ali-dev11/React-Coding-Challenge.git
+git clone https://github.com/Ali-dev11/React-Coding-Challenge.git
 cd React-Coding-Challenge
 ```
 ## Getting Started
